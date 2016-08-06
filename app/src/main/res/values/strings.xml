@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Number</string>
+    <string name="number">Count</string>
+    <string name="best_score">"Best Score: "</string>
+    <string name="_0">0</string>
+    <string name="start">Start</string>
+    <string name="offline">Offline</string>
+    <string name="question">\?</string>
+    <string name="money">"Money: "</string>
+    <string name="shop">Shop</string>
+    <string name="dinobia">Dinobia</string>
+    <string name="menu">Menu</string>
+    <string name="_1">+1</string>
+    <string name="tap_tap">Tap Tap</string>
+    <string name="_3">3</string>
+    <string name="your_turn">Your Turn</string>
+    <string name="_00">0</string>
+    <string name="_8">8</string>
+    <string name="dinobia1">Dinobia</string>
+    <string name="your_turn1">Your Turn</string>
+    <string name="win">Win</string>
+    <string name="lose">Lose</string>
+</resources>

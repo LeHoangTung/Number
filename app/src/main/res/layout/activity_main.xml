@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context="com.example.tommyle.number.MainActivity">
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="@string/number"
+        android:textColor="@color/number"
+        android:textSize="90sp" />
+
+    <RelativeLayout
+        android:id="@+id/rlScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCount"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvBestScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/money"
+            android:textColor="@color/bestScore"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvBestScore"
+            android:layout_toEndOf="@+id/tvBestScore"
+            android:layout_toRightOf="@+id/tvBestScore"
+            android:text="@string/_0"
+            android:textColor="@color/bestScore"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlScore"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/start"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        />
+    <Button
+        android:id="@+id/btStart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btStart"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAllCaps="false"
+        android:text="@string/offline"
+        android:textSize="15sp"
+        android:onClick="onStart"/>
+    <Button
+        android:id="@+id/btQuestion"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:textAllCaps="false"
+        android:text="@string/question"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/btShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btStart2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textAllCaps="false"
+        android:text="@string/shop"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dinobia"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:background="@drawable/cup"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:onClick="onTop"
+        />
+
+</RelativeLayout>
